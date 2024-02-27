@@ -1,14 +1,14 @@
-// ReactComponent.js
 import React from 'react';
 
-const ReactComponent = () => {
-  return (
-    <div>
-      <h3>React Component</h3>
-      <p>This is a React component.</p>
+const ReactComponent = () => (
+  <div className="card">
+    <div className="card-body">
+      <h5 className="card-title">React Component</h5>
+     
     </div>
-  );
-};
+  </div>
+);
 
 export default ReactComponent;
+
 

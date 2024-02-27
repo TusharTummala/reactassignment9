@@ -1,13 +1,14 @@
 import React from 'react';
 
-const AngularComponent = () => {
-  return (
-    <div>
-      <h3>Angular Component</h3>
-      <p>This is an Angular component.</p>
+const AngularComponent = () => (
+  <div className="card">
+    <div className="card-body">
+      <h5 className="card-title">Angular Component</h5>
+     
     </div>
-  );
-};
+  </div>
+);
 
 export default AngularComponent;
+
 
